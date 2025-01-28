@@ -9,8 +9,8 @@ const postCSSPlugins = [
 module.exports = {
   entry: "./app/assets/scripts/App.js",
   output: {
-    path: path.resolve(__dirname, "dist"),
-    filename: "my-first-webpack.bundle.js",
+    path: path.resolve(__dirname, "app"),
+    filename: "bundled.js",
   },
   mode: "development",
   watch: true,
